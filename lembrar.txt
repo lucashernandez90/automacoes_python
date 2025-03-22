@@ -1,7 +1,0 @@
-- EC.presence_of_all_elements_located: Esse método espera que todos os elementos correspondentes ao localizador estejam presentes na página (não necessariamente visíveis).
-
-- EC.visibility_of_element_located:
-
-- EC.visibility_of_all_elements_located: Se você quer garantir que os elementos estejam visíveis antes de interagir com eles, use este método.
-
-- EC.element_to_be_clickable

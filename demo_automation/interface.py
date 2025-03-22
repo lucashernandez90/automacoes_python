@@ -31,8 +31,5 @@ class App(customtkinter.CTk):
         self.result_label.configure(text="Login realizado")
         sign_up_function()
 
-    def executar_pesado(self):
-        threading.Thread(target=self.sign_up, daemon=True).start()
-
 app = App()
 app.mainloop()
