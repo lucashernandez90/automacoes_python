@@ -1,6 +1,3 @@
-import os
-from datetime import datetime
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -26,7 +23,7 @@ BUTTON_ADD_CART = (By.XPATH, "//button[@class= 'btn btn_primary btn_small btn_in
 BUTTON_GO_BACK = (By.XPATH, "//button[@class= 'btn btn_secondary back btn_large inventory_details_back_button']")
 
 # BUTTON_ADD = (By.XPATH, "//button[text()='Add to cart']")
-# BUTTON_REMOVE = (By.XPATH, "//button[text()='Remove")
+# BUTTON_REMOVE = (By.XPATH, "//button[text()='Remove')
 # BUTTON_FILTER = (By.XPATH, "//span[@class= 'product_sort_container']")
 
 BUTTON_HAMBUGUER = (By.XPATH, "//button[@id= 'react-burger-menu-btn']")
